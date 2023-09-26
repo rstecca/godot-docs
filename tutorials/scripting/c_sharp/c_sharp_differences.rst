@@ -112,9 +112,12 @@ abs                              Mathf.Abs
 absf                             Mathf.Abs
 absi                             Mathf.Abs
 acos                             Mathf.Acos
+acosh                            Mathf.Acosh
 asin                             Mathf.Asin
+asinh                            Mathf.Asinh
 atan                             Mathf.Atan
 atan2                            Mathf.Atan2
+atanh                            Mathf.Atanh
 bezier_derivative                Mathf.BezierDerivative
 bezier_interpolate               Mathf.BezierInterpolate
 bytes_to_var                     GD.BytesToVar
@@ -128,7 +131,7 @@ clampi                           Mathf.Clamp
 cos                              Mathf.Cos
 cosh                             Mathf.Cosh
 cubic_interpolate                Mathf.CubicInterpolate
-cubic_interpoalte_angle          Mathf.CubicInterpolateAngle
+cubic_interpolate_angle          Mathf.CubicInterpolateAngle
 cubic_interpolate_angle_in_time  Mathf.CubicInterpolateInTime
 cubic_interpolate_in_time        Mathf.CubicInterpolateAngleInTime
 db_to_linear                     Mathf.DbToLinear
@@ -458,7 +461,7 @@ to_upper                 `string.ToUpper`_
 to_utf16_buffer          StringExtensions.ToUtf16Buffer (Consider using `System.Text.Encoding.UTF16.GetBytes`_)
 to_utf32_buffer          StringExtensions.ToUtf32Buffer (Consider using `System.Text.Encoding.UTF32.GetBytes`_)
 to_utf8_buffer           StringExtensions.ToUtf8Buffer (Consider using `System.Text.Encoding.UTF8.GetBytes`_)
-to_wchar_buffer          StringExtensions.ToUtf16Buffer in Windows and StringExtensiont.ToUtf32Buffer in other platforms
+to_wchar_buffer          StringExtensions.ToUtf16Buffer in Windows and StringExtensions.ToUtf32Buffer in other platforms
 trim_prefix              StringExtensions.TrimPrefix
 trim_suffix              StringExtensions.TrimSuffix
 unicode_at               `string[int]`_ indexer
@@ -794,7 +797,7 @@ Dictionary
 ----------
 
 Use ``Godot.Collections.Dictionary`` for an untyped ``Variant`` dictionary.
-``Godot.Colelctions.Dictionary<TKey, TValue>`` is a type-safe wrapper around ``Godot.Collections.Dictionary``.
+``Godot.Collections.Dictionary<TKey, TValue>`` is a type-safe wrapper around ``Godot.Collections.Dictionary``.
 
 See also :ref:`Dictionary in C# <doc_c_sharp_collections_dictionary>`.
 
